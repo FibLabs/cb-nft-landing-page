@@ -1,6 +1,5 @@
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/solid'
-import Image from 'next/image'
 
 export default function OurTeam() {
   return (
@@ -11,11 +10,11 @@ export default function OurTeam() {
         <h3 className='uppercase mb-8 text-5xl px-7 md:mb-10 md:pb-5'>Our Team</h3>
         <div className='md:flex md:justify-around'>
           <div className='text-center pb-8 md:pb-3 md:hover:bg-neutral-900 md:px-4 md:py-4'>
-            <Image
+            <img
               src="/images/146.png"
               alt="founder avatar"
-              width={200}
-              height={200}
+              width="100%"
+              height="100%"
             />
             <div className='md:py-3'>
               <p className='text-3xl'>Novaeguineae</p>
@@ -23,11 +22,11 @@ export default function OurTeam() {
             </div>
           </div>
           <div className='text-center pb-8 md:pb-3 md:hover:bg-neutral-900 md:px-4 md:py-4'>
-            <Image
+            <img
               src="/images/108.png"
               alt="founder avatar"
-              width={200}
-              height={200}
+              width="100%"
+              height="100%"
             />
             <div className='md:py-3'>
               <p className='text-3xl'>Rhombifer</p>
@@ -35,11 +34,12 @@ export default function OurTeam() {
             </div>
           </div>
           <div className='text-center pb-8 md:pb-3 md:hover:bg-neutral-900 md:px-4 md:py-4'>
-            <Image
+            <img
               src="/images/21.png"
+              className='text-center'
               alt="founder avatar"
-              width={200}
-              height={200}
+              width="100%"
+              height="100%"
             />
             <div className='md:py-3'>
               <p className='text-3xl'>Mindorensis</p>
@@ -47,11 +47,11 @@ export default function OurTeam() {
             </div>
           </div>
           <div className='text-center pb-8 md:pb-3 md:hover:bg-neutral-900 md:px-4 md:py-4'>
-            <Image
+            <img
               src="/images/39.png"
               alt="founder avatar"
-              width={200}
-              height={200}
+              width="100%"
+              height="100%"
             />
             <div className='md:py-3'>
               <p className='text-3xl'>Niloticus</p>

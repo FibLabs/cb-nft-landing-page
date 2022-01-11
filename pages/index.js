@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import BigButton from '../components/BigButton'
 import OurTeam from '../components/OurTeam'
 import Faq from '../components/Faq'
@@ -18,7 +17,7 @@ export default function Home() {
         <div className="bg-orange-400 h-screen">
           <header id="Join">
             <div className='flex justify-center py-4'>
-              <Image
+              <img
                 className="my-3 cursor-pointer"
                 src="/images/crocoboys-logo.png"
                 width={240}
