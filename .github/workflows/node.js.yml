@@ -26,9 +26,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: Installing Packages
     - run: npm ci
+
+    - name: Build
     - run: npm run build
+      env: 
+        NEXT_PUBLIC_BASE_PATH: /cb-nft-landing-page
     - run: npm run export
+      env: 
+        NEXT_PUBLIC_BASE_PATH: /cb-nft-landing-page
     - run: touch ./out/.nojekyll
     
     - name: Deploy 🚀
