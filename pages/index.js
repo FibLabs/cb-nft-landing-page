@@ -28,7 +28,7 @@ export default function Home() {
                 TAKE A HIT, LET'S MAKE SOME NOISE ON NFT WORLD
               </h2>
               <h5 className='text-2xl mx-3 pb-8 opacity-80 py-4 md:text-4xl md:max-w-4xl md:mx-auto md:py-2 md:mb-14 md:pb-3'>
-                Collect unique croco limited 3,456 artworks on Solana Blockchain with highest rarity on each pictures of croco on chain. <span className='underline'>Public sale is on 22th January 2022, 11:11AM UTC.</span>
+                Collect unique croco limited 3,456 artworks on Solana Blockchain with highest rarity on each pictures of croco on chain. <span className='underline'>Public sale is on 2nd February 2022, 11:11AM UTC.</span>
               </h5>
               <BigButton text="Mint Now" color="green" to="https://mint.crocoboys.com" openNewTab={false}/>
             </div>

@@ -8,7 +8,7 @@ const faqContent = [
   },
   {
     question: 'When is the Mint?',
-    answer: 'The Public sale is on 22th January 2022, 11:11AM UTC, with the supply of 3,456 NFTs, Price for the Public Sale is 0.1 SOL'
+    answer: 'The Public sale is on 2nd February 2022, 11:11AM UTC, with the supply of 3,456 NFTs, Price for the Public Sale is 0.1 SOL'
   },
   {
     question: 'What is an NFT?',
