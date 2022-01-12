@@ -8,7 +8,7 @@ const faqContent = [
   },
   {
     question: 'When is the Mint?',
-    answer: 'The Public sale is on 22th January 2022, 11:11AM UTC, with the supply of 3,456 NFTs, Price for the Public Sale is 0.5 SOL'
+    answer: 'The Public sale is on 22th January 2022, 11:11AM UTC, with the supply of 3,456 NFTs, Price for the Public Sale is 0.1 SOL'
   },
   {
     question: 'What is an NFT?',
@@ -24,7 +24,7 @@ const faqContent = [
   },
   {
     question: 'What is the minting price of CrocoBoys NFT?',
-    answer: 'Minting price is 0.5 SOL'
+    answer: 'Minting price is 0.1 SOL'
   },
   {
     question: 'Are there any royalty fees?',
