@@ -22,7 +22,7 @@ module.exports = {
         VT323: ['VT323', "monospace"],
       },
       backgroundImage: {
-        'bg-artworks': "url('/images/bg-artworks.png')"
+        'bg-artworks': "url('/images/bg_artworks.png')"
       }
     },
   },
